@@ -1,4 +1,4 @@
-var button = document.getElementById("enter");
+var button = document.getElementById("button-addon2");
 var input = document.getElementById("userinput");
 var ul = document.querySelector("ul");
 
@@ -9,22 +9,25 @@ function inputLength() {
 }
 
 function createListElement() {
+
 	var li = document.createElement("li");
 	li.appendChild(document.createTextNode(input.value));
 	ul.appendChild(li);
 	input.value = "";
-
-	var done1 = document.createElement("button");
-	done1.appendChild(document.createTextNode("Done!"));
-	li.appendChild(done1);
-	done1.onclick = done;
+	li.classList.add("list");
 
 	var remove = document.createElement("button");
-	remove.appendChild(document.createTextNode("Delete"));
+	remove.appendChild(document.createTextNode("Remove"));
 	li.appendChild(remove);
-
 	remove.onclick = removeIt;
-	
+	remove.className = "btn";
+
+	var done1 = document.createElement("button");
+	done1.appendChild(document.createTextNode("Done"));
+	li.appendChild(done1);
+	done1.onclick = done;
+	done1.className = "btn";
+		
 }
 
 function addListAfterClick() {
