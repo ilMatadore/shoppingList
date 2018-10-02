@@ -20,13 +20,13 @@ function createListElement() {
 	remove.appendChild(document.createTextNode("Remove"));
 	li.appendChild(remove);
 	remove.onclick = removeIt;
-	remove.className = "btn";
+	remove.className = "btn btn-lg";
 
 	var done1 = document.createElement("button");
 	done1.appendChild(document.createTextNode("Done"));
 	li.appendChild(done1);
 	done1.onclick = done;
-	done1.className = "btn";
+	done1.className = "btn btn-lg";
 		
 }
 

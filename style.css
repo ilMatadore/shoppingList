@@ -1,8 +1,11 @@
 .container-fluid h1 {
   font-size: 60px;
+  text-align: center;
 }
 
-
+p {
+  text-align: center;
+}
 
 .done {
   text-decoration: line-through;
@@ -16,7 +19,7 @@ body {
 
 .list {
   font-family: Calibri;
-  font-size: 20px;
+  font-size: 26px;
   border: .5px solid #D3D3D3;  
   list-style: none;
   padding-left: 10px;
@@ -24,12 +27,12 @@ body {
 }
 
 .list-group {
-  font-size: 16px;
+  font-size: 70px;
 }
 
 .btn {
   float: right;
-  margin-left: 5px;
+  margin-left: 15px;
 
 }
 
