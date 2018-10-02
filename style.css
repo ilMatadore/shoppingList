@@ -22,17 +22,19 @@ body {
   font-size: 26px;
   border: .5px solid #D3D3D3;  
   list-style: none;
-  padding-left: 10px;
-  line-height: 33px;
+  padding: 4px 4px 4px 10px;
+  line-height: normal;
+  margin-top: 10px;
 }
 
 .list-group {
-  font-size: 70px;
+  font-size: 50px;
 }
 
 .btn {
   float: right;
   margin-left: 15px;
+
 
 }
 
