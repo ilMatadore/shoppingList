@@ -54,8 +54,3 @@ function removeIt(evt) {
 button.addEventListener("click", addListAfterClick);
 
 input.addEventListener("keypress", addListAfterKeypress);
-
-
-
-
-
